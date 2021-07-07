@@ -19,12 +19,12 @@ Retina Net. According to https://arxiv.org/abs/1708.02002
 Retina U-Net. According to https://arxiv.org/abs/1811.08661
 """
 
-import utils.model_utils as mutils
-import utils.exp_utils as utils
+import medicaldetectiontoolkit.utils.model_utils as mutils
+import medicaldetectiontoolkit.utils.exp_utils as utils
 import sys
 sys.path.append('../')
-from cuda_functions.nms_2D.pth_nms import nms_gpu as nms_2D
-from cuda_functions.nms_3D.pth_nms import nms_gpu as nms_3D
+from medicaldetectiontoolkit.cuda_functions.nms_2D.pth_nms import nms_gpu as nms_2D
+from medicaldetectiontoolkit.cuda_functions.nms_3D.pth_nms import nms_gpu as nms_3D
 
 import numpy as np
 import torch
