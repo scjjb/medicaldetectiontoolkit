@@ -20,7 +20,7 @@ import subprocess
 import os
 import torch
 from collections import OrderedDict
-import plotting
+import medicaldetectiontoolkit.plotting
 import sys
 import importlib.util
 import pandas as pd
